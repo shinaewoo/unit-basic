@@ -1,63 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1721615725008" clover="3.2.0">
-  <project timestamp="1721615725008" name="All files">
-    <metrics statements="48" coveredstatements="48" conditionals="12" coveredconditionals="12" methods="9" coveredmethods="9" elements="69" coveredelements="69" complexity="0" loc="48" ncloc="48" packages="1" files="3" classes="3"/>
-    <file name="add.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/basic/add.js">
-      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-    </file>
-    <file name="async.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/basic/async.js">
-      <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <line num="1" count="5" type="cond" truecount="1" falsecount="0"/>
-      <line num="2" count="5" type="cond" truecount="1" falsecount="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-    </file>
-    <file name="calculator.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/basic/calculator.js">
-      <metrics statements="35" coveredstatements="35" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="3" count="10" type="stmt"/>
-      <line num="4" count="10" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="7" count="7" type="stmt"/>
-      <line num="8" count="7" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="22" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="30" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="31" count="3" type="stmt"/>
-      <line num="32" count="3" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
-      <line num="35" count="1" type="stmt"/>
-    </file>
+<coverage generated="1721701055946" clover="3.2.0">
+  <project timestamp="1721701055946" name="All files">
+    <metrics statements="82" coveredstatements="75" conditionals="15" coveredconditionals="15" methods="10" coveredmethods="8" elements="107" coveredelements="98" complexity="0" loc="82" ncloc="82" packages="4" files="7" classes="7"/>
+    <package name="check">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="check.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/mock/check/check.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="product">
+      <metrics statements="37" coveredstatements="33" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="4"/>
+      <file name="product_client.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/mock/product/product_client.js">
+        <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="product_service.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/mock/product/product_service.js">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="product_service_no_di.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/mock/product/product_service_no_di.js">
+        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="product.test">
+      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="stub_product_client.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/mock/product/test/stub_product_client.js">
+        <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="user">
+      <metrics statements="26" coveredstatements="23" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+      <file name="user_client.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/mock/user/user_client.js">
+        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="user_service.js" path="/Users/wooshinae/Documents/2024/unit-basic/src/mock/user/user_service.js">
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
